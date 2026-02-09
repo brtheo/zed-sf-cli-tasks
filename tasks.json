@@ -1,0 +1,37 @@
+[
+  {
+    "label": "SF::Retrieve",
+    "command": "sf project retrieve start -m LightningComponentBundle:turfuWC -r $ZED_WORKTREE_ROOT/.sf/ --json",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Deploy",
+    "command": "sf project deploy start --source-dir $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Org_Picker",
+    "command": "./sf-tui",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Gen::LWC",
+    "command": "./sf-tui gen --t LWC -o $ZED_WORKTREE_ROOT/force-app/main/default",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Gen::ApexClass",
+    "command": "./sf-tui gen --t ApexClass -o $ZED_WORKTREE_ROOT/force-app/main/default",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+]
