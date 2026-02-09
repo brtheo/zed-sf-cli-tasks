@@ -1,23 +1,23 @@
 [
   {
-    "label": "SF::Retrieve",
-    "command": "sf project retrieve start -m LightningComponentBundle:turfuWC -r $ZED_WORKTREE_ROOT/.sf/ --json",
-    "use_new_terminal": false,
-    "allow_concurrent_runs": false,
-    "reveal": "always"
-  },
-  {
     "label": "SF::Deploy",
     "command": "sf project deploy start --source-dir $ZED_FILE",
     "use_new_terminal": false,
-    "allow_concurrent_runs": false,
+    "allow_concurrent_runs": true,
     "reveal": "always"
   },
   {
-    "label": "SF::Org_Picker",
-    "command": "./sf-tui",
+    "label": "SF::Retrieve",
+    "command": "sf project retrieve start --source-dir $ZED_FILE",
     "use_new_terminal": false,
-    "allow_concurrent_runs": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Retrieve::Manifest",
+    "command": "sf project retrieve start --manifest $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
     "reveal": "always"
   },
   {
