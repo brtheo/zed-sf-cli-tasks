@@ -1,0 +1,107 @@
+[
+  {
+    "label": "SF::Apex::Run::Anonymous::File",
+    "command": "sf apex run --file $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Apex::Run::Anonymous::Selected",
+    "command": "$env:ZED_SELECTED_TEXT | sf apex run",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Apex::Run::Test",
+    "command": "sf apex run test --class-names $ZED_STEM --result-format human -y -c",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Deploy",
+    "command": "sf project deploy start --source-dir $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Deploy::Manifest",
+    "command": "sf project deploy start --source-dir $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Gen::ApexClass",
+    "command": "stew gen --t ApexClass -o ./force-app/main/default",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Gen::ApexTrigger",
+    "command": "stew gen --t ApexTrigger -o ./force-app/main/default",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Gen::LWC",
+    "command": "stew gen --t LWC -o ./force-app/main/default",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Org::Open",
+    "command": "sf org open",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Org::Pick",
+    "command": "stew",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Package::Generator",
+    "command": "stew metadata-retriever",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Retrieve",
+    "command": "sf project retrieve start --source-dir $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::Retrieve::Manifest",
+    "command": "sf project retrieve start --manifest $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::SOQL::Run::Selected",
+    "command": "sf data query --query $ZED_SELECTED_TEXT",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "SF::SOQL::Run::File",
+    "command": "sf data query --file $ZED_FILE",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
