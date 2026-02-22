@@ -1,6 +1,6 @@
 # 🚀 SF Zed Tasks
 
-A comprehensive collection of **Salesforce CLI (sf)**, enabling seamless Salesforce development without leaving your modern editor.
+A comprehensive collection of **Salesforce CLI (sf)** tasks, enabling seamless Salesforce development without leaving your modern editor.
 
 While Zed tasks doesn't support prompting to user for input, this repo makes heavy use of [stew](https://github.com/brtheo/stew), a TUI that provides basic UI interaction with the SF cli.
 
