@@ -58,14 +58,17 @@ mv tasks_merged.json %APPDATA%\zed\tasks.json
 | **SFDX: Execute Anonymous Apex with Currently Selected Text** | ✅ | `SF:Apex::Run::Anonymous::Selected` |
 | **SFDX: Run Apex Tests** (Class level) | ✅ | `SF::Apex::Run::Test` |
 | **SFDX: Deploy Source to Org** | ✅ | `SF::Deploy` |
-| **SFDX: Deploy Manifest to Org** | ✅ | `SF::Deploy::Manifest` |
+| **SFDX: Deploy Manifest to Org** | ✅ | `SF::Deploy::Manifest` |a
 | **SFDX: Retrieve Source from Org** | ✅ | `SF::Retrieve` |
 | **SFDX: Retrieve Manifest from Org** | ✅ | `SF::Retrieve::Manifest` |
 | **SFDX: Create Apex Class** | ✅ | `SF::Gen::ApexClass` (via `stew`) |
 | **SFDX: Create Apex Trigger** | ✅ | `SF::Gen::ApexTrigger` (via `stew`) |
+| **SFDX: Create Aura Component** | ✅ | `SF::Gen::Aura` (via `stew`) |
+| **SFDX: Create Aura Event** | ✅ | `SF::Gen::AuraEvent` (via `stew`) |
+| **SFDX: Create Aura App** | ✅ | `SF::Gen::AuraApp` (via `stew`) |
 | **SFDX: Create Lightning Web Component** | ✅ | `SF::Gen::LWC` (via `stew`) |
 | **SFDX: Open Default Org** | ✅ | `SF::Org::Open` |
-| **SFDX: Authorize an Org** / **Set Default Org** | ✅ | `SF::Org::Pick` (via `stew`) |
+| **SFDX: Authorize an Org** / **Set Default Org** | ✅ | `SF::Org::Authorize` (via `stew`) |
 | **SFDX: Execute SOQL Query with Currently Selected Text** | ✅ | `SF::SOQL::Run::Selected` |
 | **SFDX: Execute SOQL Query with Editor Contents** | ✅ | `SF::SOQL::Run::File` |
 | **SFDX: Generate Manifest (package.xml)** | ✅ | `SF::Package::Generator` (via `stew`) |
