@@ -36,42 +36,42 @@
   },
   {
     "label": "SF::Gen::ApexClass",
-    "command": "stew gen --t ApexClass -o ./force-app/main/default -e zed",
+    "command": "stew gen -t ApexClass -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
   },
   {
     "label": "SF::Gen::ApexTrigger",
-    "command": "stew gen --t ApexTrigger -o ./force-app/main/default -e zed",
+    "command": "stew gen -t ApexTrigger -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
   },
   {
     "label": "SF::Gen::Aura",
-    "command": "stew gen --t Aura -o ./force-app/main/default -e zed",
+    "command": "stew gen -t Aura -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
   },
   {
     "label": "SF::Gen::AuraApp",
-    "command": "stew gen --t AuraApp -o ./force-app/main/default -e zed",
+    "command": "stew gen -t AuraApp -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
   },
   {
     "label": "SF::Gen::AuraEvent",
-    "command": "stew gen --t AuraEvent -o ./force-app/main/default -e zed",
+    "command": "stew gen -t AuraEvent -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
   },
   {
     "label": "SF::Gen::LWC",
-    "command": "stew gen --t LWC -o ./force-app/main/default -e zed",
+    "command": "stew gen -t LWC -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
