@@ -1,12 +1,5 @@
 [
   {
-    "label":"test",
-    "command": "test",
-    "use_new_terminal": false,
-    "allow_concurrent_runs": true,
-    "reveal": "always"
-  },
-  {
     "label": "SF::Apex::Run::Anonymous::File",
     "command": "sf apex run --file $ZED_FILE",
     "use_new_terminal": false,
@@ -81,6 +74,13 @@
     "command": "stew gen -t LWC -o $ZED_WORKTREE_ROOT/force-app/main/default -e zeditor",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label":"SF::Gen::Project",
+    "command": "stew gen-project -e zeditor",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
     "reveal": "always"
   },
    {

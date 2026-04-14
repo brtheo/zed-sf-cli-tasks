@@ -77,6 +77,13 @@
     "reveal": "always"
   },
   {
+    "label":"SF::Gen::Project",
+    "command": "stew gen-project -e zed",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
     "label": "SF::Org::Authorize",
     "command": "stew authorize-org",
     "use_new_terminal": false,
