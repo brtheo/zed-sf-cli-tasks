@@ -72,7 +72,7 @@ mv tasks_merged.json %APPDATA%\zed\tasks.json
 | **SFDX: Execute SOQL Query with Currently Selected Text** | ✅ | `SF::SOQL::Run::Selected` |
 | **SFDX: Execute SOQL Query with Editor Contents** | ✅ | `SF::SOQL::Run::File` |
 | **SFDX: Generate Manifest (package.xml)** | ✅ | `SF::Package::Generator` (via `stew`) |
-| **SFDX: Create Project** | ❌ | *Missing* |
+| **SFDX: Create Project** | ✅ | *Missing* |
 | **SFDX: Diff File Against Org** | ❌ | *Missing* |
 | **SFDX: Refresh SObject Definitions** | ❌ | *Missing* |
 | **SFDX: Cancel Active Deploy/Retrieve** | ❌ | *Missing* |
