@@ -18,6 +18,7 @@ This repository provides a ready-to-use task configuration that maps common Sale
 - ✨ **Generate Artifacts** — Create Apex classes, triggers, and Lightning Web Components via interactive prompts
 - 📊 **Query Data** — Run SOQL queries directly from your editor
 - 🔑 **Manage Orgs** — Authorize, switch between, and open your Salesforce orgs
+- 🏭 **Compare with org** — Compare your local code with the org's code
 
 ## Platform Support
 
@@ -73,7 +74,7 @@ mv tasks_merged.json %APPDATA%\zed\tasks.json
 | **SFDX: Execute SOQL Query with Editor Contents** | ✅ | `SF::SOQL::Run::File` |
 | **SFDX: Generate Manifest (package.xml)** | ✅ | `SF::Package::Generator` (via `stew`) |
 | **SFDX: Create Project** | ✅ | *Missing* |
-| **SFDX: Diff File Against Org** | ❌ | *Missing* |
+| **SFDX: Diff File Against Org** | ✅ | *Missing* |
 | **SFDX: Refresh SObject Definitions** | ❌ | *Missing* |
 | **SFDX: Cancel Active Deploy/Retrieve** | ❌ | *Missing* |
 | **SFDX: Scan Current File with Code Analyzer** | ❌ | *Missing* |

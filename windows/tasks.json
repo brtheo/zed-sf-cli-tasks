@@ -35,6 +35,13 @@
     "reveal": "always"
   },
   {
+    "label": "SF::Diff::File",
+    "command": "stew diff -f $ZED_RELATIVE_FILE -e zeditor",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
     "label": "SF::Gen::ApexClass",
     "command": "stew gen -t ApexClass -o ./force-app/main/default -e zed",
     "use_new_terminal": false,
