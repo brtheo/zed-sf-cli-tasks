@@ -36,7 +36,7 @@
   },
   {
     "label": "SF::Diff::File",
-    "command": "stew diff -f $ZED_RELATIVE_FILE -e zeditor",
+    "command": "stew diff -f $ZED_RELATIVE_FILE -e zed",
     "use_new_terminal": false,
     "allow_concurrent_runs": false,
     "reveal": "always"
